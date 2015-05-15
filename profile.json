@@ -1,0 +1,13 @@
+{
+  "box_name" : "centos7",
+
+  "memory" : 4096,
+  "cpus" : 4,
+
+  "sync_folder" : {"src": "/Users/jelser/projects/accumulo-vagrant-dev.git", "dest": "/vagrant", "owner": "vagrant", "group": "vagrant"},
+
+  "domain" : "example.com",
+  "nodes": [
+    {"hostname": "node1", "ip": "10.0.0.10"}
+  ]
+}
